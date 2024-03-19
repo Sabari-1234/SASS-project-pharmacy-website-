@@ -1,0 +1,12 @@
+#section3{
+	button{
+		background-color:  $mycolor;
+		&:hover{
+			@include Hover($mycolor);
+		}
+	}
+
+
+
+
+}

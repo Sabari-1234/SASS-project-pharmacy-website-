@@ -1,0 +1,21 @@
+#section7{
+	div>span{
+		color: #EEC20E;
+	
+	}
+	div>p{
+		span{
+			color: $mycolor;
+			
+		}
+	
+
+	} 
+	img{
+		height: 150px;
+	
+	}
+	button{
+		&:hover{
+			@include Hover;
+	}} }

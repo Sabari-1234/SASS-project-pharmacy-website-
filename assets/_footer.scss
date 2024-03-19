@@ -1,0 +1,15 @@
+#sub{
+	background-color:  $mycolor;
+	&:hover{
+		@include Hover($mycolor);
+	}
+	
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+	&:hover{
+		color: $grey;
+	}
+}

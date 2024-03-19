@@ -1,0 +1,119 @@
+#top {
+  background-color: grey;
+}
+
+#search {
+  width: 260px;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+#carouselhead {
+  font-weight: bold;
+}
+
+#carousel, #carouselitem {
+  height: 90vh;
+}
+
+#section2, #grid1 {
+  min-height: 300px;
+}
+
+#section2 span {
+  display: inline-block;
+  transform: scale(2, 2);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 2%;
+  border: 1px solid grey;
+}
+#section2 .card:hover i {
+  color: #42D8F4;
+}
+#section2 .card:hover span {
+  border: 1px solid #42D8F4;
+}
+
+#section3 button {
+  background-color: #42D8F4;
+}
+#section3 button:hover {
+  background-color: transparent;
+  color: #42D8F4;
+  border-color: #42D8F4;
+}
+
+#section7 div > span {
+  color: #EEC20E;
+}
+#section7 div > p span {
+  color: #42D8F4;
+}
+#section7 img {
+  height: 150px;
+}
+#section7 button:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+#section4 {
+  background-color: #F4F8F8;
+}
+#section4 button:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+#section4 h2 span {
+  text-decoration: underline;
+  text-decoration-color: #42D8F4;
+}
+
+#section5 span {
+  text-decoration: underline;
+  text-decoration-color: #42D8F4;
+}
+#section5 .card-body p {
+  color: #42D8F4;
+}
+
+#section6 span {
+  text-decoration: underline;
+  text-decoration-color: #42D8F4;
+}
+#section6 button:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+#right {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeivV3fpNPwTKh-7wK3ItuFGy2P7ACiuv0uQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sub {
+  background-color: #42D8F4;
+}
+#sub:hover {
+  background-color: transparent;
+  color: #42D8F4;
+  border-color: #42D8F4;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: grey;
+}/*# sourceMappingURL=SASS.css.map */

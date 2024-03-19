@@ -1,0 +1,11 @@
+#section5{
+	span{
+		@include decoration;
+		
+	}
+	.card-body p{
+		color: $mycolor;
+	}
+
+
+}

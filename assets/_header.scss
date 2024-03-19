@@ -1,0 +1,10 @@
+#search{
+	width: 260px;
+}
+.button{
+	&:hover{
+		@include Hover;
+
+	}
+
+}

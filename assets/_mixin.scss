@@ -1,0 +1,11 @@
+@mixin Hover($color:$black){
+	background-color: transparent;
+	color:  $color;
+	border-color: $color;
+
+
+}
+@mixin decoration{
+	text-decoration: underline;
+	text-decoration-color:  $mycolor;
+}

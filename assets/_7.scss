@@ -1,0 +1,20 @@
+#section6{
+	span{
+		@include decoration;
+		
+	}
+	button{
+		&:hover{
+			@include Hover;
+			}
+	}
+
+
+} 
+
+#right{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeivV3fpNPwTKh-7wK3ItuFGy2P7ACiuv0uQ&usqp=CAU");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
